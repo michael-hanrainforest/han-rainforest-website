@@ -45,7 +45,7 @@ export default function Home() {
             </h1>
             <div className="flex justify-center">
               <Link
-                to="/rimba-park-resort"
+                to="/destinations"
                 className="group flex items-center gap-4 bg-sand-50 text-forest-950 px-8 py-4 rounded-full font-sans text-sm tracking-wide uppercase hover:bg-white transition-colors"
               >
                 <span>Discover More</span>
@@ -72,10 +72,10 @@ export default function Home() {
               preservation.
             </h2>
             <p className="text-lg text-forest-800 leading-relaxed font-light mb-8">
-              Our Malaysian Ecotourism Program focuses on Environmental, Social, and Governance (ESG) principles. We believe that by immersing you in the profound beauty of our ancient forests, we can foster a deeper respect for our planet and direct support for indigenous communities.
+              Our Malaysian Ecotourism Programme focuses on Environmental, Social, and Governance (ESG) principles. We believe that by immersing you in the profound beauty of our ancient forests, we can foster a deeper respect for our planet and direct support for indigenous communities.
             </p>
-            <Link to="/the-program" className="inline-flex items-center gap-2 text-forest-900 border-b border-forest-900 pb-1 hover:text-forest-700 hover:border-forest-700 transition-colors uppercase tracking-widest text-xs font-semibold">
-              Explore The Program
+            <Link to="/esg-ecotourism" className="inline-flex items-center gap-2 text-forest-900 border-b border-forest-900 pb-1 hover:text-forest-700 hover:border-forest-700 transition-colors uppercase tracking-widest text-xs font-semibold">
+              Explore The Programme
             </Link>
           </motion.div>
           <div className="md:col-span-5 relative">
@@ -111,6 +111,16 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
+              src="https://lh3.googleusercontent.com/d/1lfMeef7HH7rmIO4Gn4WYQoLZ7Qsaq2ZL" 
+              referrerPolicy="no-referrer"
+              alt="Partner Logo 0" 
+              className="h-20 md:h-28 object-contain mix-blend-multiply"
+            />
+            <motion.img 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, delay: 0.1 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
               src="https://lh3.googleusercontent.com/d/1l7S_jvq8uLslvqxcKY20F1FbiVGshlYv=s1000" 
               referrerPolicy="no-referrer"
               alt="Partner Logo 1" 

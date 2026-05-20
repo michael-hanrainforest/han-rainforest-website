@@ -9,7 +9,7 @@ const links = [
   { name: "About Us", path: "/about-us" },
   { name: "Rimba Park Resort", path: "/rimba-park-resort" },
   { 
-    name: "The Program", 
+    name: "The Programme", 
     children: [
       { name: "ESG in Ecotourism", path: "/esg-ecotourism" },
       { name: "Corporate Social Responsibility (CSR)", path: "/csr" },
